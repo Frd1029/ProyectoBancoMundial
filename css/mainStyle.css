@@ -1,4 +1,4 @@
-.container, table{
+.container{
 	width: 100%;
 	max-width: 500px;
 	margin: 0 auto;
@@ -9,6 +9,38 @@
 	text-align: center;
 }
 
+.grid-cabecera {
+  display: grid;
+  grid-template-columns: auto auto auto; 
+  grid-gap: 10px; 
+}
+
+#item-icon {
+  grid-column: span 1; 
+  padding: 20px;
+}
+
+#item-text {
+  grid-column: span 2; 
+  padding: 20px;
+  padding-top:30%;
+}
+
+.grid-botones{
+	display: grid;
+	grid-template-columns: auto auto;
+	
+}
+
+#item-left{
+	
+}
+
+#item-rigth{
+	
+}
+
+
 button[type="add"]{
 	background-color: #173076;
 	color: #fff;
@@ -16,4 +48,9 @@ button[type="add"]{
 	border: none;
 	border-radius: 20px 0px 20px 0px;
 	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+#cancelar{
+	background-color: #444444;
 }
