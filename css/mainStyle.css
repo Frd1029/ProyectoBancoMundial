@@ -13,6 +13,7 @@
   display: grid;
   grid-template-columns: auto auto auto; 
   grid-gap: 10px; 
+  text-align: center;
 }
 
 #item-icon {
@@ -23,25 +24,16 @@
 #item-text {
   grid-column: span 2; 
   padding: 20px;
-  padding-top:30%;
+  padding-top:20%;
 }
 
 .grid-botones{
 	display: grid;
 	grid-template-columns: auto auto;
-	
+	text-align: center;
 }
 
-#item-left{
-	
-}
-
-#item-rigth{
-	
-}
-
-
-button[type="add"]{
+button[type="action"]{
 	background-color: #173076;
 	color: #fff;
 	padding: 10px 20px;
@@ -49,6 +41,7 @@ button[type="add"]{
 	border-radius: 20px 0px 20px 0px;
 	cursor: pointer;
 	margin-bottom: 20px;
+	min-width: 150px;
 }
 
 #cancelar{
