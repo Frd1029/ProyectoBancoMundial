@@ -44,6 +44,18 @@ button[type="action"]{
 	min-width: 150px;
 }
 
+div div#item-left a button[type="action"]{
+	border-radius: 0px 0px 0px 20px;
+} 
+
+div div#item-rigth a button[type="action"]{
+	border-radius: 0px 20px 0px 0px;
+}
+
+div div#item-rigth button[type="action"]{
+	border-radius: 0px 20px 0px 0px;
+} 
+
 #cancelar{
 	background-color: #444444;
 }
