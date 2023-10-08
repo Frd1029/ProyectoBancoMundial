@@ -80,6 +80,12 @@ div div#item-rigth button[type="action"]{
 	margin-bottom: 20px;
 }
 
+#continuar{
+	margin-left: 100px;
+	background-color: #444444;
+
+}
+
 table{
 	margin-left: 158px;
 }
